@@ -30,9 +30,14 @@
 						<th>First Name</th>
 						<th>Last Name</th>
 						<th>Email</th>
+						<th>Action</th>
 					</tr>
 					
 					<c:forEach var="tempCustomer" items="${customers}">
+					
+						<c:url var="updateLink" value="/customer/showFormForUpdate">
+							<c:param name="customerId" value="${temp.customerId}" />
+						</c:url>
 						<tr>
 							<td>${tempCustomer.firstName}</td>
 							<td>${tempCustomer.lastName}</td>
