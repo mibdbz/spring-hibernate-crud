@@ -78,7 +78,7 @@ public class CustomerController {
 		return "list-customers";
 	}
 	
-	public void calculate() {
-		System.out.println("Lets see what will be wrote on github");
+	public void addEvenOneMoreCheck() {
+		System.out.println("zugulekugle");
 	}
 }
