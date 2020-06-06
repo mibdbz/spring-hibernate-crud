@@ -26,7 +26,7 @@
 					   class="add-button"
 				/>
 				
-				<form:form action="search" methos="GET">
+				<form:form action="search" method="GET">
 					Search Customer: <input type="text" name="theSearchName" />
 									 <input type="submit" value="Search" class="add-button" />
 				</form:form>
